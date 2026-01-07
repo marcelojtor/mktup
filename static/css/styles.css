@@ -91,10 +91,10 @@ body {
   margin-bottom: 12px;
 }
 
-/* Espaço reservado para textos futuros */
 .secao p {
   font-size: 15px;
   color: #333333;
+  margin-bottom: 12px;
 }
 
 /* =========================
@@ -113,6 +113,34 @@ body {
   font-size: 13px;
   line-height: 1.5;
   font-weight: 500;
+}
+
+/* =========================
+   BOTÃO FIXO VOLTAR AO TOPO
+   ========================= */
+
+.btn-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 16px;
+  width: 54px;
+  height: 54px;
+  background-color: #0b2c5f;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.btn-topo:active {
+  transform: scale(0.95);
+  background-color: #09224a;
 }
 
 /* =========================
