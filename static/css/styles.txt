@@ -1,0 +1,124 @@
+/* =========================
+   RESET E BASE MOBILE FIRST
+   ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* =========================
+   BANNER / HERO
+   ========================= */
+
+.hero {
+  width: 100%;
+}
+
+.hero-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* =========================
+   MENU MOBILE (BOTÕES)
+   ========================= */
+
+.menu-mobile {
+  width: 100%;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.menu-btn {
+  display: block;
+  width: 100%;
+  padding: 16px 14px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0b2c5f; /* azul escuro */
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.menu-btn:active {
+  transform: scale(0.98);
+  background-color: #09224a;
+}
+
+/* =========================
+   CONTEÚDO DAS SEÇÕES
+   ========================= */
+
+.conteudo {
+  width: 100%;
+  padding: 10px 16px 30px;
+}
+
+.secao {
+  padding: 32px 8px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.secao:last-child {
+  border-bottom: none;
+}
+
+.secao h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0b2c5f;
+  margin-bottom: 12px;
+}
+
+/* Espaço reservado para textos futuros */
+.secao p {
+  font-size: 15px;
+  color: #333333;
+}
+
+/* =========================
+   RODAPÉ
+   ========================= */
+
+.rodape {
+  width: 100%;
+  padding: 24px 16px;
+  background-color: #0b2c5f;
+  text-align: center;
+}
+
+.rodape p {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* =========================
+   AJUSTES FUTUROS (DESKTOP)
+   ========================= */
+/* Layout permanece mobile-first.
+   Caso deseje futuramente adaptar para telas maiores,
+   os media queries entram aqui.
+*/
